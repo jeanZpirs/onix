@@ -1,0 +1,35 @@
+.icon {
+  color: $color-white;
+  border-radius: 50%;
+
+  &__bg--orange {
+    height: 4.6rem;
+    width: 4.6rem;
+    padding: 1rem;
+
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-orange, $alpha: 1),
+      rgba($color-orange, $alpha: 0.8)
+    );
+  }
+
+  &__bg--blue {
+    background-color: $color-blue;
+    width: 3.2rem;
+    height: 3.2rem;
+    padding: 8px;
+  }
+
+  &__bg--transparent {
+    width: 3.2rem;
+    height: 3.2rem;
+    background-color: transparent;
+    color: red;
+  }
+
+  &__img {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+}

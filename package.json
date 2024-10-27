@@ -1,0 +1,16 @@
+{
+  "name": "onix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass  sass/main.scss css/styles.css -w --silence-deprecation=import"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss-cli": "^11.0.0",
+    "sass": "^1.80.4"
+  }
+}

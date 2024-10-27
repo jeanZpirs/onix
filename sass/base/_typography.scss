@@ -1,0 +1,30 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: normal;
+  line-height: 1;
+  color: $color-text;
+}
+
+h2,
+h3 {
+  text-transform: capitalize;
+  font-weight: $font-bold;
+}
+
+.heading-primary {
+  font-size: 5rem;
+  font-weight: $font-bold;
+  line-height: $font-line--hight;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+  line-height: $font-line--medium;
+}
+
+.heading-translucent {
+  text-transform: uppercase;
+  color: $color-orange;
+  opacity: 0.15;
+}
