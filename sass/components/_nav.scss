@@ -1,0 +1,16 @@
+.nav {
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  &__item {
+    letter-spacing: 1px;
+    transition: all 0.3s;
+  }
+
+  & li:not(:last-child) &__item:hover {
+    color: $color-orange;
+  }
+}

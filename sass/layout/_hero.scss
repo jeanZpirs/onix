@@ -1,0 +1,69 @@
+.hero {
+  &-text-box {
+    width: 50%;
+    padding: 15rem 0;
+  }
+
+  &__subheading {
+    font-size: 1.8rem;
+    font-weight: $font-semibold;
+    color: $color-orange;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    margin-bottom: 2rem;
+  }
+
+  &__description {
+    line-height: $font-line--small;
+    margin-bottom: 2rem;
+  }
+
+  &-button-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6rem;
+  }
+
+  &__btn {
+    margin-right: 2rem;
+  }
+
+  &__icon {
+    margin-right: 1rem;
+  }
+
+  &__tel {
+    color: $color-orange;
+  }
+
+  &__banner--left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 26.7rem;
+    max-height: 53.2rem;
+  }
+
+  &__banner--right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 82rem;
+    max-height: 67.4rem;
+  }
+
+  &__pagination {
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+  }
+
+  &__pagination--item-active {
+    color: $color-orange;
+    padding: 0 0.4rem 0.6rem 0.4rem;
+    border-bottom: 3px solid $color-orange;
+  }
+}

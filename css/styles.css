@@ -26,6 +26,7 @@ img {
 
 .container {
   max-width: 1320px;
+  padding: 0 1.2rem;
   margin: 0 auto;
 }
 
@@ -109,6 +110,122 @@ h3 {
 .icon__img {
   width: 4.5rem;
   height: 4.5rem;
+}
+
+.btn {
+  display: inline-block;
+  text-transform: capitalize;
+  color: #fff;
+  border-radius: 10rem;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+}
+.btn--orange {
+  background-color: #ff695f;
+  padding: 1.2rem 2.5rem;
+}
+.btn--orange:hover {
+  background-color: #03a4ed;
+}
+.btn--blue {
+  background-color: #03a4ed;
+  padding: 1.2rem 2.5rem;
+}
+.btn--blue:hover {
+  background-color: #ff695f;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.nav__item {
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+.nav li:not(:last-child) .nav__item:hover {
+  color: #ff695f;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+}
+
+.hero-text-box {
+  width: 50%;
+  padding: 15rem 0;
+}
+.hero__subheading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #ff695f;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.hero__title {
+  margin-bottom: 2rem;
+}
+.hero__description {
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+.hero-button-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+.hero__btn {
+  margin-right: 2rem;
+}
+.hero__icon {
+  margin-right: 1rem;
+}
+.hero__tel {
+  color: #ff695f;
+}
+.hero__banner--left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 26.7rem;
+  max-height: 53.2rem;
+}
+.hero__banner--right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 82rem;
+  max-height: 67.4rem;
+}
+.hero__pagination {
+  display: flex;
+  gap: 2rem;
+  font-size: 2rem;
+}
+.hero__pagination--item-active {
+  color: #ff695f;
+  padding: 0 0.4rem 0.6rem 0.4rem;
+  border-bottom: 3px solid #ff695f;
+}
+
+.section-header {
+  background-color: #fafafa;
+}
+
+.section-hero {
+  position: relative;
+}
+
+.section-header {
+  background-color: #fafafa;
+}
+
+.section-hero {
+  position: relative;
 }
 
 /*# sourceMappingURL=styles.css.map */

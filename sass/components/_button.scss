@@ -1,0 +1,26 @@
+.btn {
+  display: inline-block;
+  text-transform: capitalize;
+  color: $color-white;
+  border-radius: 10rem;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+
+  &--orange {
+    background-color: $color-orange;
+    padding: 1.2rem 2.5rem;
+
+    &:hover {
+      background-color: $color-blue;
+    }
+  }
+
+  &--blue {
+    background-color: $color-blue;
+    padding: 1.2rem 2.5rem;
+
+    &:hover {
+      background-color: $color-orange;
+    }
+  }
+}
