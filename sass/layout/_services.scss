@@ -1,0 +1,57 @@
+.service {
+  text-align: center;
+  position: relative;
+
+  &__dec {
+    position: absolute;
+  }
+
+  &__dec--left {
+    height: 63.8rem;
+    width: auto;
+
+    top: -15rem;
+    left: -10rem;
+    z-index: -1;
+  }
+
+  &__dec--right {
+    width: 30rem;
+    bottom: -10rem;
+    right: 0;
+  }
+
+  &__title {
+    width: 30%;
+    margin: 0 auto;
+    line-height: $font-line--medium;
+  }
+
+  &__cards {
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 3rem;
+  }
+
+  &__card {
+    padding: 3rem;
+    box-shadow: $normal-shadow;
+    text-align: center;
+    border-radius: 2rem;
+    background-color: $color-white;
+  }
+
+  &__card--title {
+    margin-bottom: 3rem;
+    line-height: $font-line--small;
+  }
+
+  &__card img {
+    margin-bottom: 3rem;
+  }
+
+  &__card--description {
+    padding-top: 3rem;
+    border-top: 1px solid $color-grey--light;
+    line-height: $font-line--small;
+  }
+}

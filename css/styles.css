@@ -59,6 +59,8 @@ h3 {
   text-transform: uppercase;
   color: #ff695f;
   opacity: 0.15;
+  font-size: 3rem;
+  margin-bottom: 5rem;
 }
 
 .text-color--blue {
@@ -203,7 +205,7 @@ h3 {
 }
 .hero__pagination {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   font-size: 2rem;
 }
 .hero__pagination--item-active {
@@ -212,6 +214,54 @@ h3 {
   border-bottom: 3px solid #ff695f;
 }
 
+.service {
+  text-align: center;
+  position: relative;
+}
+.service__dec {
+  position: absolute;
+}
+.service__dec--left {
+  height: 63.8rem;
+  width: auto;
+  top: -15rem;
+  left: -10rem;
+  z-index: -1;
+}
+.service__dec--right {
+  width: 30rem;
+  bottom: -10rem;
+  right: 0;
+}
+.service__title {
+  width: 30%;
+  margin: 0 auto;
+  line-height: 4.4rem;
+}
+.service__cards {
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 3rem;
+}
+.service__card {
+  padding: 3rem;
+  box-shadow: 0px 0px 1.5rem rgba(0, 0, 0, 0.05);
+  text-align: center;
+  border-radius: 2rem;
+  background-color: #fff;
+}
+.service__card--title {
+  margin-bottom: 3rem;
+  line-height: 3rem;
+}
+.service__card img {
+  margin-bottom: 3rem;
+}
+.service__card--description {
+  padding-top: 3rem;
+  border-top: 1px solid #eee;
+  line-height: 3rem;
+}
+
 .section-header {
   background-color: #fafafa;
 }
@@ -220,12 +270,22 @@ h3 {
   position: relative;
 }
 
+.section-service {
+  position: relative;
+  padding: 9.6rem 0;
+}
+
 .section-header {
   background-color: #fafafa;
 }
 
 .section-hero {
   position: relative;
+}
+
+.section-service {
+  position: relative;
+  padding: 9.6rem 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
