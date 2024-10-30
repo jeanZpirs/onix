@@ -1,0 +1,26 @@
+.stat {
+  &__item {
+    padding: 0 1rem;
+  }
+
+  &__icon {
+    margin-bottom: 2rem;
+  }
+  &__number {
+    font-size: 4.8rem;
+    font-weight: $font-bold;
+    margin-bottom: 1.2rem;
+  }
+  &__subtitle {
+    display: inline-block;
+    color: $color-orange;
+    margin-bottom: 2rem;
+  }
+
+  &__description {
+    line-height: $font-line--small;
+    font-size: 1.4rem;
+    border-top: 1px solid $color-grey--light;
+    padding-top: 1.2rem;
+  }
+}

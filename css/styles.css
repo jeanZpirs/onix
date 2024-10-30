@@ -150,6 +150,49 @@ h3 {
   color: #ff695f;
 }
 
+.bullets {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.bullet {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background-color: rgba(255, 105, 95, 0.2);
+}
+
+.bullet--active {
+  width: 1rem;
+  height: 1rem;
+  background-color: #ff695f;
+}
+
+.stat__item {
+  padding: 0 1rem;
+}
+.stat__icon {
+  margin-bottom: 2rem;
+}
+.stat__number {
+  font-size: 4.8rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+.stat__subtitle {
+  display: inline-block;
+  color: #ff695f;
+  margin-bottom: 2rem;
+}
+.stat__description {
+  line-height: 3rem;
+  font-size: 1.4rem;
+  border-top: 1px solid #eee;
+  padding-top: 1.2rem;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -240,6 +283,7 @@ h3 {
 .service__cards {
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 3rem;
+  margin-bottom: 4rem;
 }
 .service__card {
   padding: 3rem;
@@ -261,6 +305,18 @@ h3 {
   line-height: 3rem;
 }
 
+.about-details-box {
+  padding: 2rem;
+}
+.about__title {
+  width: 90%;
+  margin-bottom: 4rem;
+}
+.about__description {
+  margin-bottom: 4rem;
+  line-height: 3rem;
+}
+
 .section-header {
   background-color: #fafafa;
 }
@@ -271,6 +327,10 @@ h3 {
 
 .section-service {
   position: relative;
+  padding: 9.6rem 0;
+}
+
+.section-about {
   padding: 9.6rem 0;
 }
 
