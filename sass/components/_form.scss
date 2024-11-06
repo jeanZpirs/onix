@@ -1,0 +1,21 @@
+.form {
+  background-image: url("/assets/images/contact-form-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  &__input {
+    border: none;
+    border-bottom: 1px solid $color-blue;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    font-family: inherit;
+    margin-bottom: 3rem;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+
+    &::placeholder {
+      color: $color-grey--normal;
+    }
+  }
+}

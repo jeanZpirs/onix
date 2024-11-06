@@ -1,0 +1,60 @@
+.mail {
+  background-image: url("/assets/images/subscribe-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 5rem;
+  position: relative;
+  text-align: center;
+
+  &__title {
+    color: $color-white;
+    margin-bottom: 2rem;
+  }
+
+  &__search-box {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+    background-color: $color-white;
+    border-radius: 10rem;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  input {
+    width: 100%;
+    background-color: $color-white;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    color: $color-text;
+  }
+
+  input::placeholder {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    color: $color-grey--normal;
+  }
+
+  &__btn {
+    padding: 1.2rem 7rem;
+    font-family: "Poppins";
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -5rem;
+    right: -2rem;
+    width: 20rem;
+    height: 20rem;
+    background-image: url("/assets/images/subscribe-dec.png");
+    background-size: contain; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2; /* Coloca el pseudo-elemento detrás del contenido del contenedor */
+  }
+}

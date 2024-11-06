@@ -1,0 +1,84 @@
+.plans {
+  gap: 3rem;
+
+  &__title {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  &__dec {
+    position: absolute;
+    z-index: -1;
+  }
+
+  &__dec--left {
+    width: 35.9rem;
+    height: 84.8rem;
+    top: 0;
+    left: 0;
+  }
+
+  &__dec--right {
+    width: 41.8rem;
+    height: 85.1rem;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.plan {
+  &__card {
+    box-shadow: $normal-shadow;
+    border-radius: $high-radius;
+    padding: 6rem;
+    background-color: $color-white;
+
+    position: relative;
+  }
+
+  &__title {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 3rem;
+  }
+  &__price--line {
+    color: $color-orange;
+    text-decoration: line-through;
+    margin-bottom: 1rem;
+  }
+
+  &__price {
+    font-size: 4rem;
+    font-weight: $font-bold;
+    color: $color-orange;
+    margin-bottom: 4rem;
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  &__details-item {
+    color: $color-grey--dark;
+  }
+
+  &__bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__bg--starter {
+    background-image: url("/assets/images/first-plan-bg.png");
+  }
+
+  &__bg--standard {
+    background-image: url("/assets/images/second-plan-bg.png");
+  }
+
+  &__bg--advanced {
+    background-image: url("/assets/images/third-plan-bg.png");
+  }
+}
